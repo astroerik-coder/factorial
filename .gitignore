@@ -1,0 +1,11 @@
+# Archivos generados por compilación
+/build/
+*.exe
+*.out
+*.o
+*.a
+*.lib
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
