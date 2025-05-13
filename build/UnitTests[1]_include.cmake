@@ -1,0 +1,5 @@
+if(EXISTS "D:/GitHub/factorial/build/UnitTests[1]_tests.cmake")
+  include("D:/GitHub/factorial/build/UnitTests[1]_tests.cmake")
+else()
+  add_test(UnitTests_NOT_BUILT UnitTests_NOT_BUILT)
+endif()
